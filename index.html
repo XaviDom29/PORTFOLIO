@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
-  <title>P o r t f o l i o    X a v i</title>
+  <title>P o r t f o l i o X a v i</title>
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="">
     <a class="navbar-brand" href="#">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,37 +20,37 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">About me</a>
+          <a class="nav-link" href="#aboutme">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
-</nav>
+  </nav>
 
 
-<div class="header">
-<div class="info">
-<h4><a href="#category">Full-Stack Develper</a></h4>
-  <h1>ANIMATED HEADERS ARE THE BEST</h1>
-  <div class="meta">
-    <a  href="https://twitter.com/xavi_domi1991" target="_b" class="author"></a><br>
-    By <a href="https://twitter.com/xavi_domi1991" target="_b">Xavi Dominguez</a> on Apr 21, 2019
+  <div class="header">
+    <div class="info">
+      <h4><a href="#category">Full-Stack Develper</a></h4>
+      <h1>ANIMATED HEADERS ARE THE BEST</h1>
+      <div class="meta">
+        <a href="https://twitter.com/xavi_domi1991" target="_b" class="author"></a><br>
+        By <a href="https://twitter.com/xavi_domi1991" target="_b">Xavi Dominguez</a> on Apr 21, 2019
+      </div>
+    </div>
   </div>
-</div>
-</div>
 
-  <div class="bgimg-1">
+  <div class="bgimg-1 " id="portfolio">
     <div class="caption">
       <span class="border">PORTFOLIO</span>
     </div>
   </div>
 
-  <div  class=" " style="color: #ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div id="aboutme" class=" " style="color: #ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
     <h3 style="text-align:center;color: #ddd;">ABOUT ME</h3>
     <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper
       libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula.
@@ -58,10 +58,73 @@
       vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
   </div>
 
-  <div class="bgimg-3">
+  <div class="bgimg-3" id="contact">
     <div class="caption">
-      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">CONTACT</span>
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">CONTACT</span><br>
+
     </div>
+    <div class="formato">
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip01">First name</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip02">Last name</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltipUsername">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
+                Please choose a unique and valid username.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">City</label>
+            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">State</label>
+            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+            <div class="invalid-tooltip">
+              Please provide a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip05">Zip</label>
+            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </form>
+      </form>
+
+
+
+
+
+</div>
   </div>
 
   <div class="row " style="color: #777;background-color:#282E34;padding:0px 40px;">
@@ -69,7 +132,7 @@
       <li><a class="linked " href="#home">Home</a></li>
       <li><a class="linked " href="#aboutmi">About mi</a></li>
       <li><a class="linked " href="#portfolio">Portfolio</a></li>
-      <li><a class="linked " href="contact">Contact</a></li>
+      <li><a class="linked " href="#contact">Contact</a></li>
     </div>
   </div>
 
